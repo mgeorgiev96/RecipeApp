@@ -40,6 +40,7 @@ form{
     width: 50vw;
     border-radius: 6px;
      border: 1px solid white;
+    outline: none;
 }
 textarea{
     margin-top: 3vh;
@@ -48,6 +49,7 @@ textarea{
     height: 20vh;
     border-radius: 10px;
     border: 1px solid white;
+    outline: none;
 }
 
 
@@ -72,16 +74,19 @@ li{
 .save{
     margin-top: 4vh;
     border-radius: 5px;
+    outline: none;
 }
 .ingredients{
     margin-left: 2vw;
     border-radius: 5px;
     padding-top: 0.5px;
+    outline: none;
     
 }
 .ingredient{
     border-radius: 6px;
      border: 1px solid white;
+    outline: none;
 }
 
 .save,.ingredients{
@@ -109,6 +114,7 @@ li:hover{
     transform: scale(1.1);
     transition: 400ms;
 }
+
 
 @media all and (min-width:700px){
     .ingredient{

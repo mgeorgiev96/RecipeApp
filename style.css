@@ -46,6 +46,7 @@ button{
 input{
     width: 25vw;
     border-radius: 10px;
+    outline: none;
 }
 li{
     margin-bottom: 1vh;
@@ -78,6 +79,9 @@ label{
 .fa-edit{
     float: left;
     margin-right: 2%;
+}
+button{
+    outline: none;
 }
 
 p{

@@ -21,6 +21,7 @@ textarea,input{
     width: 50vw;
     border-radius: 6px;
     border: 1px solid white;
+    outline: none;
 }
 textarea{
     height: 30vh;
@@ -33,6 +34,7 @@ button{
     border-radius: 5px;
     box-shadow: 0 3px 1px 1px gray;
     cursor: pointer;
+    outline: none;
 }
 
 .headContainer{
