@@ -1,0 +1,60 @@
+html,body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-image: radial-gradient(#434343 ,#000000);
+    color: white;
+}
+h3{
+     font-family: 'Indie Flower', cursive;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea,input{
+    resize: none;
+    margin-top: 2vh;
+    width: 50vw;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+textarea{
+    height: 30vh;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+button{
+    margin-top: 2vh;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px 1px gray;
+    cursor: pointer;
+}
+
+.headContainer{
+    background-color: #580000;
+    margin-top: 0;
+    padding: 2vh 0 2vh 0;
+    color: white;
+    text-align: center;
+    font-family: 'Rum Raisin', sans-serif;
+    border-bottom: 1px solid white;
+}
+button:active{
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0;
+    transition: 300ms;
+    background-color: #580000;
+    color: white;
+}
+
+
+@media all and (min-width:700px){
+    input{
+        width: 25vw;
+    }
+}

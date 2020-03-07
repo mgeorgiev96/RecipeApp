@@ -1,0 +1,128 @@
+html,body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-image: radial-gradient(#434343 ,#000000);
+    color: white;
+}
+
+
+
+
+.headContainer{
+    background-color: #580000;
+    margin-top: 0;
+    padding: 2vh 0 2vh 0;
+    color: white;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border-bottom: 1px solid white;
+}
+h1{
+    font-family: 'Rum Raisin', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Rum Raisin', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.recipe{
+    width: 50vw;
+    border-radius: 6px;
+     border: 1px solid white;
+}
+textarea{
+    margin-top: 3vh;
+    resize: none;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+i{
+    color: white;
+    background-color: black;
+    float: right;
+    margin-top: 0.5vh;
+}
+li{
+    width: 30vw;
+    border-bottom: 1px solid white;
+    margin: 0.8vh 0 0.8vh 0;
+    margin-right: 9vw;
+    word-break: break-all;
+}
+.save{
+    margin-top: 4vh;
+    border-radius: 5px;
+}
+.ingredients{
+    margin-left: 2vw;
+    border-radius: 5px;
+    padding-top: 0.5px;
+    
+}
+.ingredient{
+    border-radius: 6px;
+     border: 1px solid white;
+}
+
+.save,.ingredients{
+    box-shadow: 0 2px 1px 1.5px gray;
+}
+.save:active,.ingredients:active{
+    box-shadow: 0 0 0 0;
+    transition: 300ms;
+    transform: translateY(4px);
+    background-color: #580000;
+    color: white;
+}
+.save:hover,.ingredients:hover{
+
+    cursor: pointer;
+}
+i:hover{
+    transform: scale(1.1) rotateY(360deg);
+    transition: 350ms;
+    color: red;
+     cursor: pointer;
+    border-radius: 50%;
+}
+li:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+@media all and (min-width:700px){
+    .ingredient{
+        margin-left: 3vw;
+    }
+    li{
+        width: 10vw;
+        margin-right: 3vw;
+    }
+    .ingredient{
+        width: 20vw;
+    }
+    .ingredients{
+        margin-left: 1vw;
+    }
+}
+

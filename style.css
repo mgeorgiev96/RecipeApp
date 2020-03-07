@@ -1,0 +1,130 @@
+html,body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-image: radial-gradient(#434343 ,#000000);
+    color: white;
+}
+h3{
+     font-family: 'Indie Flower', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5vh;
+}
+.headContainer{
+    background-color: #580000;
+    margin-top: 0;
+    padding: 2vh 0 2vh 0;
+    color: white;
+    text-align: center;
+    font-family: 'Rum Raisin', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.filter{
+    text-align: center;
+    justify-content: center;
+    background-image: radial-gradient(#868f96,#596164);
+    padding: 2vh 0 2vh 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+button{
+    width: 25vw;
+    margin-left: 8vw;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px 1px gray;
+}
+input{
+    width: 25vw;
+    border-radius: 10px;
+}
+li{
+    margin-bottom: 1vh;
+    height: auto;
+    width: 40vw;
+    text-align: center;
+    border-radius: 12px;
+    padding: 1vh 1vw 1vh 1vw;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    word-break: break-all;
+}
+
+label{
+    margin-left: 1%;
+    width: 98%;
+    float: left;
+    text-align: left;
+    margin-bottom: 5%;
+     margin-top: 1%;
+    text-align: center;
+}
+.text-area{
+    text-align: center;
+}
+.fa-trash{
+    float: right;
+    
+}
+.fa-edit{
+    float: left;
+    margin-right: 2%;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+.fa-trash:hover{
+    transform: rotateY(360deg) scale(1.1);
+    transform-style: preserve-3d;
+    transition:  450ms;
+    color: red;
+    cursor: pointer;
+    
+}
+.fa-edit:hover{
+    transform: scale(1.1);
+    transform-style: preserve-3d;
+    transition:  750ms;
+    color: green;
+    cursor: pointer;
+    
+}
+
+li:hover{
+    transform:scale(1.2);
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+    transition: 500ms;
+    box-shadow: 1px 1px 10px 1px white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0;
+    transition: 300ms;
+    background-color: #580000;
+    color: white;
+}
+@media all and (min-width:700px){
+    button{
+        width: 11vw;
+        margin-right: 6vw;
+    }
+    input{
+        width: 10vw;
+    }
+}
